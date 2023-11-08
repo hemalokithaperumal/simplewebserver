@@ -1,5 +1,5 @@
 # EX01 Developing a Simple Webserver
-## Date:
+## Date: 07.10.2023
 
 ## AIM:
 To develop a simple webserver to serve html pages.
@@ -22,6 +22,9 @@ Testing the webserver.
 
 ## PROGRAM:
 ```
+from http.server import HTTPServer,BaseHTTPRequestHandler
+content="""
+<!DOCTYPE html>
 <html>
 	<title>SOFTWARE COMPANIES</title>
 		<body>
